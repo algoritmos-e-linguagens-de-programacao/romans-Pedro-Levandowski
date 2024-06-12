@@ -31,14 +31,4 @@ def roman_to_int(s):
     
     return num
 
-#TESTES INTEIRO PARA ROMANO
-print('----- INTEIRO PARA ROMANO ----- \n')
-print(int_to_roman(124))
-print(int_to_roman(1231))
-print(int_to_roman(9))
 
-#TESTES ROMANO PARA INTEIRO
-print('\n----- ROMANO PARA INTEIRO ----- \n')
-print(roman_to_int('IX'))
-print(roman_to_int('CLX'))
-print(roman_to_int('CLX'))
